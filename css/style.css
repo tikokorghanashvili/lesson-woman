@@ -20,13 +20,12 @@
 	width: 195px;
 	display: flex;
 	justify-content: space-between;
+	margin-right: 200px;
 }
 .web{
 	font-size: 32px;
 	color: #3D37F1;
 	text-align: center;
-	/* display: flex;
-	justify-content: flex-start; */
 }
 .ui{
 	font-size: 32px;
@@ -38,13 +37,16 @@
 .navigation{
 	display: flex;
 	justify-content:space-around;
-	width: 581px;
+	width: 600px;
 }
-.li{
-	display: inline-block;
+.ul{
+	display: flex;
 	color: #3D37F1;
 	font-size: 20px;
+}
+.li{
 	margin-right: 20px;
+
 }
 .privide{
 	font-size: 78px;
@@ -196,4 +198,11 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+.burger-bar{
+	display: none;
+}
+.fa-bars{
+	color: blue;
+	font-size: 40px;
 }

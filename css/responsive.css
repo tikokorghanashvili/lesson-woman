@@ -6,7 +6,8 @@
 }
 @media (max-width:1024px) {
     .block2{
-        width: 350px;
+        max-width: 350px;
+        width: 100%;
     }
 }
 @media (max-width:1024px) {
@@ -128,6 +129,7 @@
         display: flex;
         justify-content: flex-start;
         margin-bottom: 50px;
+        flex-direction: column;
     }
 }
 @media (max-width:768px) {
@@ -150,8 +152,8 @@
     }
 }
 @media (max-width:480px) {
-    .div{
-        margin: 0 auto;
+    .burger-bar{
+        display: flex;
     }
 }
 @media (max-width:480px) {
@@ -194,6 +196,7 @@
 @media (max-width:480px) {
     .block{
         width: 350px;
+        margin-bottom: 20px;
     }
 }
 @media (max-width:480px) {
@@ -202,12 +205,13 @@
         height: 1200px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
     }
 }
 @media (max-width:480px) {
     .blockk{
         width: 350px;
+        margin-bottom: 20px;
     }
 }
 @media (max-width:480px) {
@@ -216,13 +220,18 @@
         height: 1200px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
     }
 }
 /* 320 რეზოლუციაზე */
 @media (max-width:320px) {
     .header{
         width: 320px;
+    }
+}
+@media (max-width:320px) {
+    .burger-bar{
+        display: flex;
     }
 }
 @media (max-width:320px) {
@@ -242,11 +251,6 @@
 @media (max-width:320px) {
     .navigation{
         display: none;
-    }
-}
-@media (max-width:300px) {
-    .div{
-        margin: 0 auto;
     }
 }
 @media (max-width:320px) {
